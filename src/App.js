@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import Navigation from "./components/routes/navigation/navigation.component";
-import Home from "./components/routes/home/home.component";
+import Navigation from './routes/navigation/navigation.component'
+//import Navigation from "./components/routes/navigation/navigation.component";
+import Home from "./routes/home/home.component";
 import Test from "./components/testcomponent/testcomponent.comonent";
-import SignIn from "./components/routes/sign-in/sign-in.component";
+import SignIn from '../src/components/sign-in-form/sign-in-form.component' ;
 
 const Shop = () => {
   return <h1>I am the shop</h1>;
